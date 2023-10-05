@@ -6,8 +6,7 @@ module Functional_Unit(instruction, A, B, F);
     input wire [7:0] B;
     output reg [7:0] F;
     
-    //TODO: write your design below
-    //You can define F as 'reg' or 'wire'
+
     always @(A or B or instruction) begin
         case (instruction)
         3'b000: F = A + B;
