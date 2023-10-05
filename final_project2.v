@@ -21,8 +21,6 @@ module find_MAX(
         .F(result)
     );
 
-    //TODO: write your design below
-    //You cannot modify anything above
     //state declaration
     parameter STATE_0 = 2'b00;
     parameter STATE_1 = 2'b01;
